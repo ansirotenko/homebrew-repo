@@ -1,13 +1,13 @@
 cask "ccv" do
   on_arm do
     version "0.2.2"
-    sha256 "e352722be48fb30a9e43f32e95f9b54f50f07c6583844138d9530c45f8e133aa"
+    sha256 "f9fbc51fe4f1488cd422813120bd6dd52c5cf9eb98037b307b35a0444a83cf53"
 
     url "https://github.com/ansirotenko/ccv/releases/download/ccv-v#{version}/ccv_#{version}_aarch64.dmg"
   end
   on_intel do
     version "0.2.2"
-    sha256 "1afc9130bce976eb62307c5ecf963ce685d24ce7a19056d7b3cbe995920e8298"
+    sha256 "86cc3a3a0c12995376afc0c197a14e87c9cc174b950204cc2a476b24f02dcae1"
 
     url "https://github.com/ansirotenko/ccv/releases/download/ccv-v#{version}/ccv_#{version}_x64.dmg"
   end
